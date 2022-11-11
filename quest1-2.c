@@ -53,6 +53,6 @@ int main(void)
     printf("fun(9) = %d \n", fun(9));
     printf("foo(1) = %d \n", foo(1));
     printf("foo(5) = %d \n", foo(5));
-    printf("foo(9) = %d \n", fo(9));
+    printf("foo(9) = %d \n", foo(9));
     return 0;
 }

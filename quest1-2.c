@@ -31,10 +31,28 @@ int fun(int n)
     }
 }
 
+    int foo(int n)
+    {
+        if (n == 0)
+        {
+            return 0;
+        }
+        int i = 0, sum = 0;
+        while (sum <= n)
+        {
+            i++;
+            sum += i;
+        }
+        return i - 1;
+    }
+
 int main(void)
 {
     printf("fun(1) = %d \n", fun(1));
     printf("fun(5) = %d \n", fun(5));
     printf("fun(9) = %d \n", fun(9));
+    printf("foo(1) = %d \n", foo(1));
+    printf("foo(5) = %d \n", foo(5));
+    printf("foo(9) = %d \n", fo(9));
     return 0;
 }
